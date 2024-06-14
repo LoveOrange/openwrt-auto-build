@@ -36,6 +36,7 @@ jobs:
       - name: Clean Workspace
         run: |
           rm -rf $GITHUB_WORKSPACE/openwrt
+          rm -rf /workdir
 
       - name: Checkout
         uses: actions/checkout@main
